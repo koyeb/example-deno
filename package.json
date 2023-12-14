@@ -1,0 +1,11 @@
+{
+  "name": "deno example application",
+  "scripts": {
+    "dev": "deno run --watch --allow-net --allow-env main.ts",
+    "build": "deno compile --allow-net --allow-env --output=example-deno main.ts",
+    "start": "./example-deno"
+  },
+  "dependencies": {
+    "deno-bin": "^1.39.0"
+  }
+}
